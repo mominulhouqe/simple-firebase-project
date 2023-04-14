@@ -34,7 +34,7 @@ const Login = () => {
       setUser(loginUser);
     })
     .catch(error=>{
-      console.log("It' s Your ", error.massage);
+      console.log( error);
     })
   }
 
